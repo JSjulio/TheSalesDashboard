@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.container {
+  flex: 1;
+  min-width: 150px;
+  min-height: 150px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.larger {
+  flex-basis: calc(66.66% - 20px);
+}
+
+.row {
+  flex: 1;
+  min-height: 50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+/* Add styles for Sidebar and Links here if needed */
